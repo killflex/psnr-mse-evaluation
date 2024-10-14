@@ -1,0 +1,5 @@
+.subplot(1, 4, 6)
+            plt.title('Histogram of Noisy Image')
+            plt.hist(noisy_image.ravel(), bins=256, range=[0, 256])
+            plt.xlabel('Pixel Intensity')
+            plt.ylabel('Frequency')
